@@ -1,3 +1,7 @@
+/**
+ * THE APP-ROOT COMPONENT MUST COME BEFORE ANY OTHER COMPONENT/SERVICE/DIRECTIVE/ETC
+ */
+
 import { Component, ChangeDetectionStrategy, Injectable, OnInit, OnDestroy, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BehaviorSubject, Observable, Subscription, map } from 'rxjs';
